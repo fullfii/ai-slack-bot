@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ai-summary-slack-bot"
+version = "0.1.0"
+description = ""
+authors = ["kento.toriumi <kento.toriumi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+black = "^24.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
